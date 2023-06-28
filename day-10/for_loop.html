@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript For Loop</h2>
+
+<p id="demo"></p>
+
+<script>
+const friend = ["ridham", "renish", "prav", "sujal", "deepak", "smeet","poojan"];
+
+let text = "";
+
+
+
+
+for (let i = 0; i < friend.length; i++) {
+  text +=friend[i] + "<br>";
+}  
+ 
+for (let i = 0; i < friend.length; i++) {
+text += friend[i] + [i+1] + "<br>";
+}
+    
+    document.getElementById("demo").innerHTML = text;
+    </script>
+
+
+</body>
+</html>
